@@ -1,0 +1,33 @@
+.card__bottom-box {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.card__level-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #ffffff;
+  font-weight: 400;
+  margin: 0.3rem 0;
+}
+
+.progress-empty {
+  position: relative;
+  background-color: #c9f2ff;
+  height: 20px;
+  width: 80%;
+  border-radius: 30px;
+}
+
+.progress-full {
+  position: absolute;
+  background-color: #ffffff;
+  height: 20px;
+  width: 20%;
+  border-radius: 30px;
+}
